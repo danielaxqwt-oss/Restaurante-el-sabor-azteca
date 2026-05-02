@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sabor Azteca</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#fff8f0;
+}
+
+/* NAV */
+nav{
+    background:#8B0000;
+    padding:15px;
+    text-align:center;
+}
+nav a{
+    color:white;
+    margin:0 15px;
+    text-decoration:none;
+    font-weight:bold;
+}
+nav a:hover{
+    color:#FFD700;
+}
+
+/* BANNER */
+.banner{
+    background:url('C:\Users\danie\Downloads') no-repeat center/cover;
+    color:white;
+    text-align:center;
+    padding:100px 20px;
+}
+.banner h1{
+    font-size:50px;
+}
+.btn{
+    background:#FFD700;
+    padding:10px 20px;
+    margin:10px;
+    border:none;
+    cursor:pointer;
+    font-weight:bold;
+}
+.btn:hover{
+    background:#ffcc00;
+}
+
+/* SECCIONES */
+section{
+    padding:40px;
+    text-align:center;
+}
+
+/* MENU */
+.menu{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+.plato{
+    background:white;
+    margin:15px;
+    padding:15px;
+    width:250px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+.plato img{
+    width:100%;
+    border-radius:10px;
+}
+
+/* FORMULARIOS */
+input, select{
+    padding:10px;
+    margin:10px;
+    width:200px;
+}
+
+/* GALERIA */
+.galeria img{
+    width:200px;
+    margin:10px;
+    border-radius:10px;
+}
+
+/* FOOTER */
+footer{
+    background:#8B0000;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav>
+<a href="#inicio">Inicio</a>
+<a href="#menu">Menú</a>
+<a href="#reservas">Reservas</a>
+<a href="#contacto">Contacto</a>
+</nav>
+
+<!-- INICIO -->
+<section id="inicio" class="banner">
+<h1>Sabor Azteca</h1>
+<p>El auténtico sabor mexicano en cada bocado</p>
+<button class="btn">Reservar</button>
+<button class="btn">Ver Menú</button>
+</section>
+
+<!-- SOBRE NOSOTROS -->
+<section>
+<h2>Sobre Nosotros</h2>
+<p>Somos un restaurante mexicano dedicado a ofrecer platillos tradicionales con ingredientes frescos.</p>
+<p><strong>Misión:</strong> Brindar una experiencia auténtica mexicana.</p>
+<p><strong>Visión:</strong> Ser el restaurante mexicano favorito.</p>
+<p><strong>Valores:</strong> Calidad, tradición y servicio.</p>
+</section>
+
+<!-- MENÚ -->
+<section id="menu">
+<h2>Menú</h2>
+
+<div class="menu">
+
+<div class="plato">
+<img src="https://images.unsplash.com/photo-1600891963935-c7c5a2bdb7f2">
+<h3>Tacos</h3>
+<p>Deliciosos tacos al pastor</p>
+<p><strong>Q25</strong></p>
+</div>
+
+<div class="plato">
+<img src="https://images.unsplash.com/photo-1615873968403-89e068629265">
+<h3>Enchiladas</h3>
+<p>Con salsa roja tradicional</p>
+<p><strong>Q35</strong></p>
+</div>
+
+<div class="plato">
+<img src="https://images.unsplash.com/photo-1625944238526-781c8b2e7c69">
+<h3>Nachos</h3>
+<p>Con queso y guacamole</p>
+<p><strong>Q30</strong></p>
+</div>
+
+</div>
+
+</section>
+
+<!-- RESERVAS -->
+<section id="reservas">
+<h2>Reservar Mesa</h2>
+
+<form>
+<input type="text" placeholder="Nombre" required><br>
+<input type="date" required><br>
+<input type="time" required><br>
+<input type="number" placeholder="Personas" required><br>
+<button class="btn">Reservar</button>
+</form>
+
+</section>
+
+<!-- PEDIDOS (opcional) -->
+<section>
+<h2>Pedidos en Línea</h2>
+<p>Selecciona tus productos y realiza tu pedido fácilmente.</p>
+<button class="btn">Comprar</button>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto">
+<h2>Contacto</h2>
+<p>📍 Mixco, Guatemala</p>
+<p>📞 1234-5678</p>
+<p>📧 saborazteca@gmail.com</p>
+</section>
+
+<!-- GALERÍA -->
+<section>
+<h2>Galería</h2>
+
+<div class="galeria">
+<img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092">
+<img src="https://images.unsplash.com/photo-1615873968403-89e068629265">
+<img src="https://images.unsplash.com/photo-1625944238526-781c8b2e7c69">
+</div>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+<p>© 2026 Sabor Azteca</p>
+</footer>
+
+</body>
+</html>
